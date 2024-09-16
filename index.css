@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing:border-box;
+	/* border: 1px solid grey; */
+	max-width: 100%;
+}
+/* GENERAL STYLES */
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem;
+	line-height: 1.5;
+	font-family: 'Roboto Mono', monospace;
+}
+
+/* CSS */
+
+.firstcontainer .firstcontainertext h1{
+	font-family: 'Chelsea Market', cursive;
+	font-size: 5rem;
+}
+.firstcontainer .firstcontainertext h2{
+	margin: 3% 0;
+}
+.firstcontainer .firstcontainertext p{
+	margin-bottom: 5%;
+}
+.orange{
+	background-color: #ff764e;
+	margin-left: 10%;
+}
+.blue{
+	background-color: #5ed3eb;
+	margin: 0 20%;
+}
+.yellow {
+	background-color: #ffcd69;
+	margin-right: 10%;
+}
+.secondcontainer {
+	background-color: #DDB9A3;
+	color: white;
+	padding: 3%
+}
+.secondcontainer p{
+	margin: 2% 0;
+}
+footer {
+	background-color: #F9e7dc;
+}
+nav{
+	padding: 2% 0;
+}
+
+nav a{
+	display: inline-block;
+	text-align: center;
+	padding: 1% 0;
+	width: 10%;
+	border-radius: 10px;
+	font-size: 2rem;
+	color: white;
+}
+.circlepicture, .firstcontainertext{
+	display: inline-block;
+}
+.circlepicture {
+	width: 40%;
+}
+.firstcontainertext {
+	width: 50%;
+	text-align: center;
+}
+.circlepicture img{
+	border-radius: 50%;
+	width: 80%;
+	margin-left: 60%;
+}
+
+.firstcontainertext div{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.thirdcontainer #fire img{
+	margin: 0 auto;
+	width: 20rem;
+
+}
+.thirdcontainer #rv img{
+	margin: 0 auto;
+	width: 20rem;
+}
+.thirdcontainer div{
+	width: 35%;
+	margin: 4% auto;
+	text-align: center;
+}
+.firstcontainer .circlepicture img{
+	width: 20rem;
+}
+
+.parkpic img{
+	width: 100%;
+	height: 40rem;
+}
